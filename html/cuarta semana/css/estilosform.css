@@ -1,0 +1,15 @@
+.titulo{
+    background-color: blue;
+    color: white;
+} 
+div{
+    padding: 5px;
+    background-color: darkkhaki;
+}
+input{
+    border-radius: 10px;
+}
+label{
+    background-color: lightblue;
+    font-size: 20px;
+}

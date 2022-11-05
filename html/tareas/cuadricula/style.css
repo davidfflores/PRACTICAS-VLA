@@ -1,0 +1,98 @@
+
+
+body{
+    background-color: #c5ebd6 ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    color: white;
+    font-weight: bold;
+    background-image: linear-gradient(to bottom, #3ddc84, #1A5C37 );
+    text-align: center;
+    text-shadow: 2px 2px 0px black;
+}
+
+nav > a {
+text-decoration: none;
+padding: 10px;
+color: white;
+}
+
+nav > a:hover{
+background-color: #83e1ad;
+color: #2fa866;
+
+}
+
+main{
+    color: #1a5c37;
+    background-color: white;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+   
+}
+
+main h2{
+    font-style: italic;
+}
+
+ul{
+    list-style-type: '\2714\00A0';
+    list-style-position: inside;
+    columns: 2;
+}
+main p{
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height:2em;
+}
+
+div.video{
+    background-color: #1A5C37;
+    position: relative;
+    width: 100%;
+    padding-bottom: 57%;
+    height: 0;
+}
+
+div.video > iframe{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+
+}
+
+main img{
+width: 100%;
+
+}
+
+main strong{
+   
+    padding: 2px 6px;
+}
+
+main a{
+text-decoration: none;
+font-weight: bold;
+color: #1A5C37;
+background-color: #83e1ad;
+
+}
+a.externo::after{
+    content: '\1F517';
+}
+
+footer{
+    background-color: #1A5C37;
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 5px;
+}

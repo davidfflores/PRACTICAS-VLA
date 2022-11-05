@@ -1,0 +1,39 @@
+
+/* #03318C
+#27498C
+#F27B13
+#D9895B
+#F2F2F2 */
+
+nav {
+    background-color: #F27B13;
+    padding: 12px;
+    width: auto;
+    
+   
+
+}
+nav > a {
+    color: #000000;
+    text-decoration: none;
+    padding: 10px;
+    width: auto;
+}
+h1 {
+    color:#F2F2F2 ;
+}
+.tipo1{
+background-color: #03318C;
+color: white;
+padding: 8px;
+border-radius: 10px;
+}
+.tipo2 {
+background-color:  #F27B13 ;
+color: white;
+padding: 8px;
+border-radius: 10px;
+}
+
+
+

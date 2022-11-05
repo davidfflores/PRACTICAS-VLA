@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Designer</title>
+    <style>
+        *{
+            text-align: center;
+            box-sizing: border-box;
+        }
+        
+        .header{
+            background-color: black;
+            color: white;
+            width: 100%;
+            height: 60px;
+        }
+        .menu{ 
+background-color: gray;
+color: black;
+width: 20%;
+        }
+        .principal{
+background-color: red;
+color: white;
+width: 60%;
+        }
+        .rss{
+background-color: orange;
+color: blue;
+width: 20%;
+        }
+        .footer{
+            background-color: black;
+            color: white;
+            width: 100%;
+            height: 40px;
+        }
+        .main{
+            height: 400px;
+        }
+        .acomodador{
+position: absolute;
+width: 100%;
+        }
+        .gridrow{
+            overflow: auto;
+            position: relative;
+        }
+        .itemmenu{
+            width: 100%;
+            margin-top: 5px;
+            background-color: green;
+        }
+        .contenmenu{
+float: left;
+height: 100%;
+
+        }
+        .contenedorprincipal{
+            float: left;
+            height: 100%;
+        }
+        .contentrss{
+            float: left;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="acomodador">
+             <div class="header gridrow">
+             header, login, logo
+            </div>
+          <div class="main gridrow">
+        <div class="menu contenmenu">
+            <div class="itemmenu"><a href="adaptabilidadms.html">dashboard</a></div>
+            <div class="itemmenu"><a href="tablasms.html">tablas</a></div>
+          <div class="itemmenu"><a href="anchorms.html">anchor</a></div>
+          <div class="itemmenu"><a href="headingms.html">heading</a></div>
+          <div class="itemmenu"><a href="videoms.html">videos</a></div>
+          <div class="itemmenu"><a href="listasms.html">listas</a></div>
+          <div class="itemmenu"><a href="paragraphsms.html">paragraph</a></div>
+          <div class="itemmenu"><a href="imagenesms.html">imagenes</a></div>
+                    </div>
+        <div class="principal contenedorprincipal">
+            <h1>dashboard</h1>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem voluptates quaerat iure eveniet illum? Enim ducimus dolore nemo blanditiis minus earum temporibus, tempora quo, ratione esse labore iure ipsa aspernatur!</p>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa sit laborum rerum commodi fugit odit reprehenderit non dolore officia, doloremque excepturi minus distinctio quos placeat voluptate inventore omnis. Beatae, excepturi!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime illum rerum nesciunt maiores rem quam similique, eveniet fugiat. Itaque omnis, at iure tempore consectetur cupiditate aut eaque? Rem, explicabo dignissimos.</p>
+        </div>
+                <div class="rss contentrss">rss</div>
+                </div>
+            <div class=footer gridrow>
+            footer
+        </div>
+  </div>
+</body>
+</html>
